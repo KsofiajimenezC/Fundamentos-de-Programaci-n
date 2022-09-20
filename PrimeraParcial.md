@@ -19,7 +19,7 @@ Ninguna
 Sofía
 
 
-### Ejercicio 2. Escribe un algoritmo que muestre el día de hoy.
+### Ejercicio 2. Escribe un algoritmo que muestre el día de hoy
 
 #### 2.1 Análisis
 Primero se inserta un inicio, para después colocar una salida de datos que imprima el texto "Lunes" para terminar el programa con un fin.
@@ -74,7 +74,7 @@ Sofi
 Buen día Sofi
 
 
-### Ejercicio 5. Escriba un dfd que calcule el cuadrado de 2.
+### Ejercicio 5. Escriba un dfd que calcule el cuadrado de 2
 
 #### 5.1 Análisis
 Empiza con un inicio, luego un mensaje que resulva 2*2 y muestre su resultado, para así terminar en fin.
@@ -93,7 +93,7 @@ Ninguna
 4
 
 
-### Ejercicio 6. Escriba un dfd que calcule el cuadrado de n para n=5.
+### Ejercicio 6. Escriba un dfd que calcule el cuadrado de n para n=5
 
 #### 6.1 Análisis
 Se empieza con un inicio, luego un proceso para darle el valor de 5 a n, por último un mensaje que muestre el cuadrado de n y luego terminar con el fin.
@@ -112,7 +112,7 @@ n=5
 25
 
 
-### Ejercicio 7. Pregunte al usuario el valor de n y obtenga el cuadrado de ese número.
+### Ejercicio 7. Pregunte al usuario el valor de n y obtenga el cuadrado de ese número
 
 #### 7.1 Análisis
 Empieza con inicio, sigue con un mensaje "Dame el valor de n" para que el usuario ponga un dato en la entrada de datos que sigue, para al úlitmo monstrar con un mensaje el resultado de n*n y terminar con un fin.
@@ -138,7 +138,7 @@ c4. 100
 c5. 81
 
 
-### Ejercicio 8. Obtenga el cuadrado de la suma de 2 números enteros.
+### Ejercicio 8. Obtenga el cuadrado de la suma de 2 números enteros
 
 #### 8.1 Análisis
 Empieza con inicio, sigue un mensaje que dice "Digita 2 números enteros" y así después poner 2 datos en una entrada de datos, luego se hará un proceso (n=a+b) para terminar mostrando un mensaje (n*n) y acabar con un fin.
@@ -164,7 +164,7 @@ c4. 100
 c5. 324  
 
 
-### Ejercicio 9. Pregunte el año de nacimiento de una persona y calcule su edad.
+### Ejercicio 9. Pregunte el año de nacimiento de una persona y calcule su edad
 
 #### 9.1 Análisis
 Empieza con un inicio, sigue con un mensaje que muestra "Dame tu año de nacimiento" y así el usuario pone un dato en la siguiente entrada de datos, después se muestra el mensaje (2022-anac) y acabará con un fin.
@@ -190,7 +190,7 @@ c4. 18
 c5. 17
 
 
-### Ejercicio 10. Pregunte el año de nacimiento y el año actual para sacar la edad de una persona.
+### Ejercicio 10. Pregunte el año de nacimiento y el año actual para sacar la edad de una persona
 
 #### 10.1 Análisis
 Se pone un inicio, luego un mensaje mostrará "Dame tu año de nacimiento" para que después el usario ponga un dato en la entrada de datos que le sigue, otro mensaje mostrará "Dame el año actual" y así poner otro dato en una 2da entrada de datos y por un último un mensaje mostrará el resultado de aact-anac y terminar con un fin.
@@ -216,7 +216,7 @@ c4. 72
 c5. 23  
 
 
-### Ejercicio 11. Pregunte el año de nacimiento, el año actual, compruebe que el año actual sea menor al de nacimiento y saca la edad de una persona.
+### Ejercicio 11. Pregunte el año de nacimiento, el año actual, compruebe que el año actual sea menor al de nacimiento y saca la edad de una persona
 
 #### 11.1 Análisis
 Se introduce un iniciom luego un mensaje que diga "Dame tu año de nacimiento", luego se introducidrá un dato a través de una entrada de datos, después se mostrará el mensaje de "Dame el año actual" para volver a introducir otro dato, luego se utilizará una condición y si es No, se mostraá el mensaje de "El año de nacimineto no puede ser mayor al año actual" y regresar al primer mensaje; si es Sí, se mostrará un mensaje (aact-anac) y después se terminará con un fin.
@@ -242,7 +242,7 @@ c4. El año de nacimineto no puede ser mayor al año actual
 c5. 18  
 
 
-### Ejercicio 12. Elabora un dfd que saque la edad de una persona, pregunta el año de nacimiento y el actal, que compruebe que tanto el año actual como el de nacimiento sean números enteros positivos, además de que el año actual no puede ser menor al de nacimiento.
+### Ejercicio 12. Elabora un dfd que saque la edad de una persona, pregunta el año de nacimiento y el actal, que compruebe que tanto el año actual como el de nacimiento sean números enteros positivos, además de que el año actual no puede ser menor al de nacimiento
 
 #### 12.1 Análisis
 Empieza con un inicio, sigue con un mensaje que muestre "Dame el año de nacimiento", sigue una salida de datos y luego una condición; si se cumple, que muestre el siguiente mensaje "No puede ser menor o igual que cero" y regresa al primer mensaje;
@@ -269,7 +269,7 @@ c3. EL año de nacimiento no puede ser mayor al año actual
 c4. 4  
 
 
-### Ejercicio 13. Escriba un dfd que cuente del 1 al 10 y lo imprima.
+### Ejercicio 13. Escriba un dfd que cuente del 1 al 10 y lo imprima
 
 #### 13.1 Análisis
 Empieza con inicio, sigue un proceso (cont=1), luego un mensaje que muestra cont, para seguir con una condición; si se cumple, sigue un proceso (cont=cont+1) y regresa al mensaje; si no se cumple, termina con un fin.
@@ -296,7 +296,7 @@ cont=1
 9  
 10  
 
-### Ejercicio 14. El resultado de la suma de los números naturales del 1 al 10 .
+### Ejercicio 14. El resultado de la suma de los números naturales del 1 al 10
 
 #### 14.1 Análisis
 Inicia con un inicio, luego sigue con un proceso (cont=1;suma=0), continúa con otro proceso (suma=suma+cont), luego sigue una condición; si se cumple, se hará un proceso (con=cont+1) y regresará al 2do proceso (suma=suma+cont); si no se cumple, se mostrará un mensaje (suma) y terminará con un fin.
@@ -316,7 +316,7 @@ suma=0
 55
 
 
-### Ejercicio 15. Realiza un dfd que genere los números pares del 1 al 10.
+### Ejercicio 15. Realiza un dfd que genere los números pares del 1 al 10
 
 #### 15.1 Análisis
 Empieza con un inicio, sigue con un proceso (cont=2), luego sigue un mensaje que mostrará cont, después una condición; si si cumple, se realizará un proceso (cont=cont+2); si no se cumple, termina con un fin.
@@ -339,7 +339,7 @@ cont=2
 10  
 
 
-### Ejercicio 16. Digite un número y que imprima un mensaje diciendo si es par o impar.
+### Ejercicio 16. Digite un número y que imprima un mensaje diciendo si es par o impar
 
 #### 16.1 Análisis
 Empieza con el inicio, sigue con un mensaje "Digite un número positivo", luego se introducirá un dato, para seguir con una condición; si se cumple, mostrará el mensaje "No puede ser negativo o cero" y regresará al mensaje "Digite un número positivo";
@@ -366,7 +366,7 @@ c4. Es Par
 c5. Es Impar  
 
 
-### Ejercicio 17. Haz un dfd que captura n números e imprima sólo la suma de los pares.
+### Ejercicio 17. Haz un dfd que captura n números e imprima sólo la suma de los pares
 
 #### 17.1 Análisis
 Empieza con un inicio, sigue con un proceso (cont=1;sp=0), luego aparecerá un mensaje "¿Cuántos números?" para después introducir un dato (num) con una entrada de datos, seguirá una condición; si no se cumple, aparecerá el mensaje "El número debe ser mayor a cero";
@@ -380,7 +380,7 @@ si se cumple, seguirá con otra condición; si se cumple, se realizará un proce
 ![image](https://user-images.githubusercontent.com/113869976/191319403-8edf919e-f72b-4619-a034-3fa8a7fc55c8.png)
 
 #### 17.4 Entradas
-c1. num=-5 na=NA
+c1. num=-5 na=NA  
 c2. num=5 no=7,8,-5,5,10,16  
 
 #### 17.5 Salidas
@@ -388,7 +388,7 @@ c1. El número debe ser mayor a cero
 c2. 34
 
 
-### Ejercicio 18. Elabora un dfd que indique si un número es mayor o menor a 10.
+### Ejercicio 18. Elabora un dfd que indique si un número es mayor o menor a 10
 
 #### 18.1 Análisis
 Primero va el inicio, sigue con el mensaje "Digite un número en el teclado", continúa con una entrada de datos, para después seguir con una condición; si se cumple, aparecerá el mensaje "Es mayor a 10"; si no se cumple imprimirá el mensaje "Es menor a 10". Termina con un fin.
@@ -411,7 +411,7 @@ c2. Es mayor a 10
 c3. Es mayor a 10  
 c4. Es menor a 10  
 
-### Ejercicio 19. Haz un dfd que indique cuánto le falta o se pasa n número de 10.
+### Ejercicio 19. Haz un dfd que indique cuánto le falta o se pasa n número de 10
 
 #### 19.1 Análisis
 Empieza con el inicio, sigue con el mensaje ""Digite un número en el teclado", para después introducir un dato y continuar con una condición; si se cumple, seguirá un proceso (num=num-10) y aparecerá el mensaje "Te pasaste por ",num," de 10"; si no se cumple, sigue un proceso (num=10-num) y continuará con el mensaje "Te falta ",num," para llegar a 10".
@@ -429,12 +429,12 @@ c3. num=3
 c4. num=65  
 
 #### 19.5 Salidas
-c1. Te pasaste por 5 de 10
-c2. Te falta 1 para llegar a 10
-c3. Te falta 7 para llegar a 10
-c4. Te pasaste por 55 de 10
+c1. Te pasaste por 5 de 10  
+c2. Te falta 1 para llegar a 10  
+c3. Te falta 7 para llegar a 10  
+c4. Te pasaste por 55 de 10  
 
-### Ejercicio 20. Haz un dfd que capture n números, al final indique cuántos números son positivos y cuántos son negativos. Escriba 0 para terminar.
+### Ejercicio 20. Haz un dfd que capture n números, al final indique cuántos números son positivos y cuántos son negativos. Escriba 0 para terminar
 
 #### 20.1 Análisis
 Empieza con un inicio, luego estará un proceso (CP=0;CN=0) para después seguir con un mensaje que imprima "Digite un número entero, 0 para terminar", después vendrá una entrada de datos, luego una condición; si no se cumple, habrá otra condición: si se cumple se hará un proceso (CP=CP+1) y regresará al mensaje "Digite un número entero, 0 para terminar": si no se cumple, se hará un proceso (CN=CN+1) y regresará al mensaje "Digite un número entero, 0 para terminar";
@@ -453,9 +453,9 @@ num=8,-6,10,-25,0
 Positivos: 2  
 Negativos: 2  
 
-### Ejercicio 21. Realiza un dfd que capture un número positivo o negativo, 0 para terminar.
-### Si es positivo, contar de 0 a ese número.
-### Si es negativo, contar de 0 a ese número.
+### Ejercicio 21. Realiza un dfd que capture un número positivo o negativo, 0 para terminar
+### Si es positivo, contar de 0 a ese número
+### Si es negativo, contar de 0 a ese número
 
 #### 21.1 Análisis
 Empieza con un inicio, continpua con un proceso (cont=0), sigue con un mensaje "Dame un número positivo o negativo, 0 para terminar", después viene una entrada de datos, para seguir luego con un mensaje que imprimirá cont, para continuar con una condición; si no se cumple, se hará un proceso (cont=cont+1), se mostrará un mensaje cont y continuará con una condición; si se cumple regresa al proceso (cont=cont+1); si no se cumple termina con un fin;
@@ -472,7 +472,7 @@ c1. num=5
 c2. num=-3  
 
 #### 21.5 Salidas
-c1.
+c1.  
 0  
 1  
 2  
