@@ -235,10 +235,10 @@ c4. anac=2022 aact=2004
 c5. anac=2004 aact=2022  
 
 #### 11.5 Salidas
-c1. "El año de nacimineto no puede ser mayor al año actual"  
+c1. El año de nacimineto no puede ser mayor al año actual  
 c2. 6  
 c3. 37  
-c4. "El año de nacimineto no puede ser mayor al año actual"  
+c4. El año de nacimineto no puede ser mayor al año actual  
 c5. 18  
 
 
@@ -263,9 +263,9 @@ c3. anac=2022 aact=2018
 c4. anac=2018 aact=2022  
 
 #### 12.5 Salidas
-c1. "No puede ser menor o igual que cero"  
+c1. No puede ser menor o igual que cero  
 c2. 18  
-c3. "EL año de nacimiento no puede ser mayor al año actual"  
+c3. EL año de nacimiento no puede ser mayor al año actual  
 c4. 4  
 
 
@@ -278,23 +278,23 @@ Empieza con inicio, sigue un proceso (cont=1), luego un mensaje que muestra cont
 ![dfd13](https://user-images.githubusercontent.com/113869976/191141453-944446f0-6689-4f59-8ef7-0997ca938275.jpg)
 
 #### 13.3 Prueba de Escritorio
-![image](https://user-images.githubusercontent.com/113869976/191141272-904f8a58-c794-405e-a3dc-1156d411e575.png)
+![image](https://user-images.githubusercontent.com/113869976/191316490-4b206366-3f3c-438f-888c-8ec640750c5c.png)
 
 #### 13.4 Entradas
 Ninguna  
 cont=1
 
 #### 13.5 Salidas
-c1. 1  
-c2. 2  
-c3. 3  
-c4. 4  
-c5. 5  
-c6. 6  
-c7. 7  
-c8. 8  
-c9. 9  
-c10. 10  
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
+9  
+10  
 
 ### Ejercicio 14. El resultado de la suma de los números naturales del 1 al 10 .
 
@@ -305,7 +305,7 @@ Inicia con un inicio, luego sigue con un proceso (cont=1;suma=0), continúa con 
 ![dfd14](https://user-images.githubusercontent.com/113869976/191141994-9b7561fb-1ff1-45e8-bf4d-10395144f05c.jpg)
 
 #### 14.3 Prueba de Escritorio
-![image](https://user-images.githubusercontent.com/113869976/191141979-99e3b684-595d-4b17-8963-2cbbd0f0e627.png)
+![image](https://user-images.githubusercontent.com/113869976/191316652-bc28f855-90e0-4bc0-80cd-2440b12119d1.png)
 
 #### 14.4 Entradas
 Ninguna  
@@ -313,17 +313,126 @@ cont=1
 suma=0  
 
 #### 14.5 Salidas
-c1. 1
-c2. 3
-c3. 6
-c4. 10
-c5. 15
-c6. 21
-c7. 28
-c8. 36
-c9. 45
-c10. 55
+55
 
+
+### Ejercicio 15. Realiza un dfd que genere los números pares del 1 al 10.
+
+#### 15.1 Análisis
+Empieza con un inicio, sigue con un proceso (cont=2), luego sigue un mensaje que mostrará cont, después una condición; si si cumple, se realizará un proceso (cont=cont+2); si no se cumple, termina con un fin.
+
+#### 15.2 Diagrama de Flujo de Datos
+![dfd15](https://user-images.githubusercontent.com/113869976/191317589-3ddb1203-247e-42ad-a1ba-6a9e5bd4de09.jpg)
+
+#### 15.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191317381-9ac2a393-1b51-4abe-b2be-ef4a089bb176.png)
+
+#### 15.4 Entradas
+Ninguna
+cont=2
+
+#### 15.5 Salidas
+2  
+4  
+6  
+8  
+10  
+
+
+### Ejercicio 16. Digite un número y que imprima un mensaje diciendo si es par o impar.
+
+#### 16.1 Análisis
+Empieza con el inicio, sigue con un mensaje "Digite un número positivo", luego se introducirá un dato, para seguir con una condición; si se cumple, mostrará el mensaje "No puede ser negativo o cero" y regresará al mensaje "Digite un número positivo";
+Si no se cumple, continuará con otra condición; si se cumple, imprimirá el mensaje "Es Par"; si no se cumple aparecerá el mensaje "Es Impar". Terminará con un fin.
+
+#### 16.2 Diagrama de Flujo de Datos
+![dfd16](https://user-images.githubusercontent.com/113869976/191318490-da3982b5-7e81-4a23-bf02-336781a80eaf.jpg)
+
+#### 16.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191318540-cacebafc-3b30-4a0e-a3f8-3e09ec8e830a.png)
+
+#### 16.4 Entradas
+c1. num=-5  
+c2. num=8  
+c3. num=9  
+c4. num=10  
+c5. num=25  
+
+#### 16.5 Salidas
+c1. No puede ser negativo o cero  
+c2. Es Par  
+c3. Es Impar  
+c4. Es Par  
+c5. Es Impar  
+
+
+### Ejercicio 17. Haz un dfd que captura n números e imprima sólo la suma de los pares.
+
+#### 17.1 Análisis
+Empieza con un inicio, sigue con un proceso (cont=1;sp=0), luego aparecerá un mensaje "¿Cuántos números?" para después introducir un dato (num) con una entrada de datos, seguirá una condición; si no se cumple, aparecerá el mensaje "El número debe ser mayor a cero";
+si se cumple, seguirá el siguiente mensaje "Dame el número ",cont," de ",num y se introducirá otro dato (no), para después seguir con otra condición; si no se cumple aparecerá el mensaje "Debe de ser mayor a cero";
+si se cumple, seguirá con otra condición; si se cumple, se realizará un proceso (sp=sp+num) y luego otro proceso (cont=cont+1); si no se cumple, seguirá el proceso (cont=cont+1), para continuar con una condición; si se cumple, regresará al mensaje "Dame el número ",cont," de ",num; si no se cumple imprimirá sp y acabará con un fin.
+
+#### 17.2 Diagrama de Flujo de Datos
+![dfd17](https://user-images.githubusercontent.com/113869976/191319729-ec4b6a07-6a26-4818-8e1a-3c5857a394bb.jpg)
+
+#### 17.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191319403-8edf919e-f72b-4619-a034-3fa8a7fc55c8.png)
+
+#### 17.4 Entradas
+c1. num=-5 na=NA
+c2. num=5 no=7,8,-5,5,10,16  
+
+#### 17.5 Salidas
+c1. El número debe ser mayor a cero  
+c2. 34
+
+
+### Ejercicio 18. Elabora un dfd que indique si un número es mayor o menor a 10.
+
+#### 18.1 Análisis
+Primero va el inicio, sigue con el mensaje "Digite un número en el teclado", continúa con una entrada de datos, para después seguir con una condición; si se cumple, aparecerá el mensaje "Es mayor a 10"; si no se cumple imprimirá el mensaje "Es menor a 10". Termina con un fin.
+
+#### 18.2 Diagrama de Flujo de Datos
+![dfd18](https://user-images.githubusercontent.com/113869976/191322625-edabeb1f-f965-4f93-baed-99faa7f8094f.jpg)
+
+#### 18.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191322229-d7a79bfd-7ea6-43b3-a864-1d5f91a0e126.png)
+
+#### 18.4 Entradas
+c1. num=8  
+c2. num=25   
+c3. num=16  
+c4. num=7  
+
+#### 18.5 Salidas
+c1. Es menor a 10  
+c2. Es mayor a 10  
+c3. Es mayor a 10  
+c4. Es menor a 10  
+
+### Ejercicio 19. Haz un dfd que indique cuánto le falta o se pasa n número de 10.
+
+#### 19.1 Análisis
+Empieza con el inicio, sigue con el mensaje ""Digite un número en el teclado", para después introducir un dato y continuar con una condición; si se cumple, seguirá un proceso (num=num-10) y aparecerá el mensaje "Te pasaste por ",num," de 10"; si no se cumple, sigue un proceso (num=10-num) y continuará con el mensaje "Te falta ",num," para llegar a 10".
+
+#### 19.2 Diagrama de Flujo de Datos
+![dfd19](https://user-images.githubusercontent.com/113869976/191323546-bcfb1341-798e-4509-90c1-c1078733789d.jpg)
+
+#### 19.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191323582-c9e83098-b44d-4ab1-956e-7fdc37cd510a.png)
+
+#### 19.4 Entradas
+c1. num=15  
+c2. num=9  
+c3. num=3  
+c4. num=65  
+
+#### 19.5 Salidas
+c1. Te pasaste por 5 de 10
+c2. Te falta 1 para llegar a 10
+c3. Te falta 7 para llegar a 10
+c4. Te pasaste por 55 de 10
 
 ### Ejercicio 
 
