@@ -434,14 +434,53 @@ c2. Te falta 1 para llegar a 10
 c3. Te falta 7 para llegar a 10
 c4. Te pasaste por 55 de 10
 
-### Ejercicio 
+### Ejercicio 20. Haz un dfd que capture n números, al final indique cuántos números son positivos y cuántos son negativos. Escriba 0 para terminar.
 
-#### .1 Análisis
+#### 20.1 Análisis
+Empieza con un inicio, luego estará un proceso (CP=0;CN=0) para después seguir con un mensaje que imprima "Digite un número entero, 0 para terminar", después vendrá una entrada de datos, luego una condición; si no se cumple, habrá otra condición: si se cumple se hará un proceso (CP=CP+1) y regresará al mensaje "Digite un número entero, 0 para terminar": si no se cumple, se hará un proceso (CN=CN+1) y regresará al mensaje "Digite un número entero, 0 para terminar";
+Si se cumple; aparecerá el mensaje "Positivos: ",CP," Negativos: ",CN y terminará conun fin.
 
-#### .2 Diagrama de Flujo de Datos
+#### 20.2 Diagrama de Flujo 
+![dfd20](https://user-images.githubusercontent.com/113869976/191384206-0cd3af7e-4a60-4a1f-a996-44bfa7ff1aee.jpg)
 
-#### .3 Prueba de Escritorio
+#### 20.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191383920-c43cb7a0-9570-4266-8832-e8a8f1a942e6.png)
 
-#### .4 Entradas
+#### 20.4 Entradas
+num=8,-6,10,-25,0
 
-#### .5 Salidas
+#### 20.5 Salidas
+Positivos: 2  
+Negativos: 2  
+
+### Ejercicio 21. Realiza un dfd que capture un número positivo o negativo, 0 para terminar.
+### Si es positivo, contar de 0 a ese número.
+### Si es negativo, contar de 0 a ese número.
+
+#### 21.1 Análisis
+Empieza con un inicio, continpua con un proceso (cont=0), sigue con un mensaje "Dame un número positivo o negativo, 0 para terminar", después viene una entrada de datos, para seguir luego con un mensaje que imprimirá cont, para continuar con una condición; si no se cumple, se hará un proceso (cont=cont+1), se mostrará un mensaje cont y continuará con una condición; si se cumple regresa al proceso (cont=cont+1); si no se cumple termina con un fin;
+Si se cumple, se hará un proceso (cont=cont-1), se mostrará un mensaje cont y continuará con otra condición; si se cumple regresa al proceso (cont=cont-1); si no se cumple termina con un fin.
+
+#### 21.2 Diagrama de Flujo de Datos
+![dfd21](https://user-images.githubusercontent.com/113869976/191384226-8707e414-868d-49cd-9583-24c6e0927993.jpg)
+
+#### 21.3 Prueba de Escritorio
+![image](https://user-images.githubusercontent.com/113869976/191384256-7ddb20e1-5cc8-4d9e-a643-780da8fa59c4.png)
+
+#### 21.4 Entradas
+c1. num=5  
+c2. num=-3  
+
+#### 21.5 Salidas
+c1.
+0  
+1  
+2  
+3  
+4  
+5  
+c2.  
+0  
+-1  
+-2  
+-3  
