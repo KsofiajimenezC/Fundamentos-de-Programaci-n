@@ -25,7 +25,7 @@
 
 #### 2.1 Análisis
 1,2,3,4,5,6,7,8,9,10  
-1+2+3+4+5+6+7+8+9+10=55
+1+2+3+4+5+6+7+8+9+10=55  
 
 #### 2.2 Diagrama de Flujo de Datos
 #### For
@@ -46,8 +46,8 @@
 
 #### 3.1 Análisis
 1,(2),3,(4),5,(6),7,(8),9,(10)  
-2,4,6,8,10
-2+4+6+8+10=30
+2,4,6,8,10  
+2+4+6+8+10=30  
 
 #### 3.2 Diagrama de Flujo de Datos
 #### For
@@ -105,7 +105,7 @@
 [6] 36  
 [7] 18  
 [8] 20  
-[9] 25
+[9] 25  
 
 #### 5.2 Diagrama de Flujo de Datos
 #### For
@@ -134,7 +134,7 @@
 [6] 4  
 [7] 3  
 [8] 2  
-[9] 1
+[9] 1  
 [10] 0  
 
 #### 6.2 Diagrama de Flujo de Datos
@@ -165,7 +165,7 @@
 [6] 22  
 [7] 18  
 [8] 2  
-[9] 4
+[9] 4  
 
 #### 7.2 Diagrama de Flujo de Datos
 #### For
@@ -192,11 +192,11 @@ Calificación 0-10
 Máximo 15 alumnos  
 1,5,10,2,7,8,9,9,10,3,4,8  
 AP=10,7,8,9,9,10,8  
-  =7  
+AP=7  
 AR=1,5,2,3,4  
-  =5  
+AR=5  
 PRA=(10+7+8+9+9+10+8)/7  
-   =8.71  
+PRA=8.71  
 
 #### 8.2 Diagrama de Flujo de Datos
 #### For
@@ -218,8 +218,8 @@ PRA=(10+7+8+9+9+10+8)/7
 #### 9.1 Análisis
 Promedio aprobatorias= PRA  
 Alumnos aprobados= AP  
-Alumnos reprobados= AR 
-Calificación más alta= CA
+Alumnos reprobados= AR  
+Calificación más alta= CA  
 Calificación 0-10  
 Máximo 15 alumnos  
 
@@ -259,16 +259,16 @@ ls=32
 6,8,10,15,22,32,10,9,26,29  
 PARES  
 6,8,10,22,32,10,25
-NP=7
-PP=(6+8+10+22+32+10+25)/7
-  =16.1
+NP=7  
+PP=(6+8+10+22+32+10+25)/7  
+PP=16.1  
 IMPARES  
 15,9,29  
-NI=3
-PI=(15+9+29)/3
-  =17.6
-PROMEDIO MAYOR
-PM=17.6
+NI=3  
+PI=(15+9+29)/3  
+PI=17.6  
+PROMEDIO MAYOR  
+PM=17.6  
 
 #### 10.2 Diagrama de Flujo de Datos
 #### For
@@ -299,7 +299,7 @@ Aprobados= A
 Promedio aprobados= PA  
 Promedio general= PG  
 NA=12  
-5,8,10,2,4,6,7,6,1,2,3,4  
+5,8,10,2,4,6,7,6,1,2,3,4   
 REPROBADOS  
 5,2,4,1,2,3,4  
 R=7  
@@ -308,10 +308,10 @@ APROBADOS
 A=5  
 PROMEDIO APROBADOS  
 PA=(6+10+6+7+6)/5  
-  =7  
+PA=7  
 PROMEDIO GENERAL  
 PG=(5+8+10+2+4+6+7+6+1+2+3+4)/12  
-  =4.8  
+PG=4.8  
 
 #### 11.2 Diagrama de Flujo de Datos
 #### For
@@ -385,7 +385,7 @@ n2 " es mayor"
 ### Ejercicio 14. Elabora un dfd que capture 10 número enteros positivos y los almacene en un vector, sacar cuál es el mayor y cuál es el menor
 
 #### 14.1 Análisis
-[0] 15 
+[0] 15  
 [1] 62  
 [2] 18  
 [3] 25  
@@ -416,7 +416,7 @@ Menor= 2
 ### Ejercicio 15. Obtenga la distancia mayor entre 2 números consecutivos en una lista de 10 números
 
 #### 15.1 Análisis
-NÚMEROS
+NÚMEROS  
 [0] 15 
 [1] 26  
 [2] 18  
@@ -428,7 +428,7 @@ NÚMEROS
 [8] 2  
 [9] 4  
 DISTANCIAS  
-[0] 11 
+[0] 11  
 [1] 8  
 [2] 7  
 [3] 25  
@@ -437,7 +437,7 @@ DISTANCIAS
 [6] 24  
 [7] 6  
 [8] 2  
-Distanci Mayor= DM  
+Distancia Mayor= DM  
 DM=25  
 
 #### 15.2 Diagrama de Flujo de Datos
