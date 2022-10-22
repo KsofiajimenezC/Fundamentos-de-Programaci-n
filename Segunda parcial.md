@@ -190,7 +190,9 @@ Alumnos aprobados= AP
 Alumnos reprobados= AR  
 Calificación 0-10  
 Máximo 15 alumnos  
+Número de alumnos= NA  
 1,5,10,2,7,8,9,9,10,3,4,8  
+NA=12
 AP=10,7,8,9,9,10,8  
 AP=7  
 AR=1,5,2,3,4  
