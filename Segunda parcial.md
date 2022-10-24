@@ -499,40 +499,67 @@ PG=4.8
 ![image](https://user-images.githubusercontent.com/113869976/197439127-69379373-0acd-4ade-87a9-1679393973bb.png)
 
 #### 11.4 Entradas
-
+NA=8
+CAL=10,10,4,6,3,8,9,10
 #### 11.5 Salidas
+Reprobados: 2  
+Aprobados: 6  
+Promedio de aprobados: 8.83333333  
+Promedio General: 7.5  
+La frecuencia es 10 y se repite 3 veces  
 
-#### 11.6 Dart
-
-
-### Ejercicio 12. Registrar 10 calificaciones en un vector
+### Ejercicio 12. Registrar cuántas veces se repite cada calificación [1,10], en un grupo de n alumnos
 
 #### 12.1 Análisis
-[0]  
-[1] 6  
-[2] 8  
-[3] 5  
-[4] 6  
-[5] 3  
-[6] 2  
-[7] 8  
-[8] 2  
-[9] 4  
-[10]  10  
+Número de alumnos= NA
+NA=15
+[0] 1  
+[1] 3  
+[2] 0  
+[3] 0  
+[4] 0  
+[5] 0  
+[6] 1  
+[7] 1  
+[8] 5  
+[9] 2  
+[10] 2   
 
 #### 12.2 Diagrama de Flujo de Datos
 #### For
+![dfd12for](https://user-images.githubusercontent.com/113869976/197454963-ee3c170a-aa56-4d1d-9761-c4df1f0b3fcb.jpg)
+
 #### While
+![dfd12while](https://user-images.githubusercontent.com/113869976/197454970-af427064-aa4b-44d6-9609-d563e60857a3.jpg)
+
 #### Do while
+![dfd12dowhile](https://user-images.githubusercontent.com/113869976/197454954-bff523a5-cbe6-4415-ad7c-a77da0f79162.jpg)
 
 #### 12.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197454903-70e437a1-9a4c-44ff-9abe-5536a9332dff.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197454926-92426b02-c619-414e-9aeb-d5bf2e94a3bc.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197454936-08b7515d-d87a-416b-b036-90b71347dacd.png)
 
 #### 12.4 Entradas
-
+num=11
+C=8,7,5,10,9,4,5,0,9,6,7
 #### 12.5 Salidas
+[0] 1  
+[1] 0  
+[2] 0  
+[3] 0  
+[4] 1  
+[5] 2  
+[6] 1  
+[7] 2  
+[8] 1  
+[9] 2  
+[10] 1  
 
 ### Ejercicio 13. Capturar 2 números y decir cuál es el mayor
 
@@ -546,7 +573,7 @@ n2=19 es mayor
 ![dfd13](https://user-images.githubusercontent.com/113869976/197419665-8655bfd7-9487-47a1-b36b-3ebbc5cd2848.jpg)
 
 #### 13.3 Prueba de Escritorio
-![image](https://user-images.githubusercontent.com/113869976/197419782-7029bde8-91a6-45ba-9842-7dae45f1f0f4.png)
+![image](https://user-images.githubusercontent.com/113869976/197439827-876f6afd-24e7-4e5c-8907-111671804d20.png)
 
 #### 13.4 Entradas
 1. n1=10 n2=5  
@@ -581,13 +608,23 @@ Menor= 2
 
 #### 14.2 Diagrama de Flujo de Datos
 #### For
+![dfd14for](https://user-images.githubusercontent.com/113869976/197460044-71416ad8-99ae-404a-8833-60baf3f9cbcd.jpg)
+
 #### While
+![dfd14while](https://user-images.githubusercontent.com/113869976/197460040-26c73995-024a-408b-8e6f-fb3b5a0cb1b9.jpg)
+
 #### Do while
+![dfd14dowhile](https://user-images.githubusercontent.com/113869976/197460048-98a64f50-1ec1-48ac-8bb7-368ed6e3acde.jpg)
 
 #### 14.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197460071-4c80ade2-2ace-4723-99ba-7e6447b98f39.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197460083-21fb40a6-d775-45de-88c9-561225cd521b.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197460092-848de49c-2460-41e6-aa7e-6419cd3005ea.png)
 
 #### 14.4 Entradas
 
@@ -667,7 +704,7 @@ Tabla del 9
 
 
 ### Ejercicio 17. Escriba un dfd que escriba el siguiente dibujo
-(imagen del dibujo)
+(Imagen del dibujo)
 
 #### 17.1 Análisis
 
