@@ -322,13 +322,13 @@ PRA=8.71
 
 #### 8.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197427821-9886fb5e-9a9c-4057-9498-334d56344ea8.png)
+![image](https://user-images.githubusercontent.com/113869976/197432996-55824fbb-7fbc-415f-a01b-cdb16f1c170b.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197427827-9cb6caca-8adb-4fed-aede-b8d845b1c9c1.png)
+![image](https://user-images.githubusercontent.com/113869976/197432528-e6e12f1a-08d4-4531-8d26-3321a864cf40.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197427831-81940e46-e29a-44c0-998f-fc31ba7dcc5f.png)
+![image](https://user-images.githubusercontent.com/113869976/197432536-3e200546-e140-4955-9943-f96c34257e95.png)
 
 #### 8.4 Entradas
 NA=10  
@@ -370,13 +370,13 @@ CA=10
 
 #### 9.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197426404-cb34bd59-24ed-4b32-98aa-3ad162e32a9e.png)
+![image](https://user-images.githubusercontent.com/113869976/197432968-199e64dc-f874-4965-ad32-340791decc43.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197426405-52eb2a79-d146-492d-8e9d-f503d8aa49ca.png)
+![image](https://user-images.githubusercontent.com/113869976/197432566-d7350a7b-3190-4df0-a50d-6124fff06ddf.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197426408-1824651b-c074-46af-8d54-e692f61cf78f.png)
+![image](https://user-images.githubusercontent.com/113869976/197432569-4f655e04-e5e9-4011-9e90-8d55d44abcfb.png)
 
 #### 9.4 Entradas
 NA=8  
@@ -420,18 +420,35 @@ PM=17.6
 
 #### 10.2 Diagrama de Flujo de Datos
 #### For
+![dfd10for](https://user-images.githubusercontent.com/113869976/197431307-f0be5aa7-0c78-45cd-a560-4c2c37f36125.jpg)
+
 #### While
+![dfd10while](https://user-images.githubusercontent.com/113869976/197431312-dad70302-225a-4ed5-8a2e-a2d7e95a8574.jpg)
+
 #### Do while
+![dfd10dowhile](https://user-images.githubusercontent.com/113869976/197431302-c5f153d7-82dc-4944-806c-050599aa79cb.jpg)
 
 #### 10.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197431273-f4500afa-d658-448b-b633-e2d58d9d9013.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197431275-9b43bcd3-138c-4ad7-9697-1559596c4a62.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197431277-c8064e50-871d-468a-ba07-bf2c64baa13a.png)
 
 #### 10.4 Entradas
-
+li=5  
+ls=15  
+cant=6  
+num=5,,7,10,15,12,9  
 #### 10.5 Salidas
-
+Pares: 2  
+Promedio Pares: 11  
+Impares: 4  
+Promedio Impares: 9  
+Los pares tienen mayor promedio  
 
 ### Ejercicio 11. Obtener la frecuencia de n. Calificaciones entre [1,10]
 ### -Indique la cantidad de reprobados
@@ -463,13 +480,23 @@ PG=4.8
 
 #### 11.2 Diagrama de Flujo de Datos
 #### For
+![dfd11for](https://user-images.githubusercontent.com/113869976/197439155-008af61f-b3ed-4a26-a4ff-c7ea04ff6835.jpg)
+
 #### While
+![dfd11while](https://user-images.githubusercontent.com/113869976/197439162-c357a8d5-50eb-4822-b3b7-92d9fc3fd9ee.jpg)
+
 #### Do while
+![dfd11dowhile](https://user-images.githubusercontent.com/113869976/197439150-a4bb2a01-0706-4b3f-8aee-e659c650aa1a.jpg)
 
 #### 11.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197439113-927dce9c-3be5-4542-a744-a22a6815d558.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197439119-9703c410-48a0-450c-a836-3878a63cbbf3.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197439127-69379373-0acd-4ade-87a9-1679393973bb.png)
 
 #### 11.4 Entradas
 
