@@ -291,7 +291,8 @@ num=16,17,28,8,14,6,30,22,18,2,4
 [8] 2  
 [9] 4
 
-### Ejercicio 8. Obtenga el promedio de las calificaciones aprobatorias, la cantidad de alumnos aprobados y la cantidad de alumnos reprobados. La calificación es entre 0 y 10 y el máximo de alumnos es de 15
+### Ejercicio 8. Obtenga el promedio de las calificaciones aprobatorias, la cantidad de alumnos aprobados y la cantidad de alumnos reprobados. 
+### La calificación es entre 0 y 10 y el máximo de alumnos es de 15.
 
 #### 8.1 Análisis
 Promedio aprobatorias= PRA  
@@ -301,7 +302,7 @@ Calificación 0-10
 Máximo 15 alumnos  
 Número de alumnos= NA  
 1,5,10,2,7,8,9,9,10,3,4,8  
-NA=12
+NA=12  
 AP=10,7,8,9,9,10,8  
 AP=7  
 AR=1,5,2,3,4  
@@ -311,18 +312,31 @@ PRA=8.71
 
 #### 8.2 Diagrama de Flujo de Datos
 #### For
+![dfd8for](https://user-images.githubusercontent.com/113869976/197427788-2dc94616-823a-4a2e-ab35-ed97ed453b37.jpg)
+
 #### While
+![dfd8while](https://user-images.githubusercontent.com/113869976/197427793-b867998d-2829-497c-84e9-6a37d270f3f9.jpg)
+
 #### Do while
+![dfd8dowhile](https://user-images.githubusercontent.com/113869976/197427779-824ff7a3-4282-4465-8f1f-7fc504834b9f.jpg)
 
 #### 8.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197427821-9886fb5e-9a9c-4057-9498-334d56344ea8.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197427827-9cb6caca-8adb-4fed-aede-b8d845b1c9c1.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197427831-81940e46-e29a-44c0-998f-fc31ba7dcc5f.png)
 
 #### 8.4 Entradas
-
+NA=10  
+CAL=8,10,5,6,7,2,4,10,10,5  
 #### 8.5 Salidas
-
+Reprobados: 4  
+Aprobados: 6  
+Promedio Aprobados: 8.5  
 
 ### Ejercicio 9. Obtenga el promedio de las calificaciones aprobatorias, la cantidad de alumnos aprobados y la cantidad de alumnos reprobados. La calificación es entre 0 y 10 y el máximo de alumnos es de 15 e indique la calificación más alta
 
@@ -332,23 +346,46 @@ Alumnos aprobados= AP
 Alumnos reprobados= AR  
 Calificación más alta= CA  
 Calificación 0-10  
-Máximo 15 alumnos  
-
+Máximo 15 alumnos   
+Número de alumnos= NA  
+1,5,10,2,7,8,9,9,10,3,4,8  
+NA=12  
+AP=10,7,8,9,9,10,8  
+AP=7  
+AR=1,5,2,3,4  
+AR=5  
+PRA=(10+7+8+9+9+10+8)/7  
+PRA=8.71  
+CA=10  
 
 #### 9.2 Diagrama de Flujo de Datos
 #### For
+![dfd9for](https://user-images.githubusercontent.com/113869976/197427857-fbe6a9cd-d4ff-47fd-83b4-acffe9c2efe5.jpg)
+
 #### While
+![dfd9while](https://user-images.githubusercontent.com/113869976/197427868-2fb465be-6ae9-4a41-a4f6-2e27dec65022.jpg)
+
 #### Do while
+![dfd9dowhile](https://user-images.githubusercontent.com/113869976/197427865-4e55bca7-b610-4ffa-85e9-dead009405fe.jpg)
 
 #### 9.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197426404-cb34bd59-24ed-4b32-98aa-3ad162e32a9e.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197426405-52eb2a79-d146-492d-8e9d-f503d8aa49ca.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197426408-1824651b-c074-46af-8d54-e692f61cf78f.png)
 
 #### 9.4 Entradas
-
+NA=8  
+CAL=8,9,10,10,5,2,2,5  
 #### 9.5 Salidas
-
+Reprobados: 4  
+Aprobados: 4  
+Promedio Aprobados: 9.25  
+La calificación mayor es: 10
 
 ### Ejercicio 10. Capturen n números en el rango de [li,ls] donde:
 ### li=límite inferior ls=límite superior y li < ls y li > ls
@@ -476,21 +513,27 @@ PG=4.8
 n1=15  
 n2=19  
 n1>n2  
-n2 " es mayor"  
+n2=19 es mayor  
 
 #### 13.2 Diagrama de Flujo de Datos
-#### For
-#### While
-#### Do while
+![dfd13](https://user-images.githubusercontent.com/113869976/197419665-8655bfd7-9487-47a1-b36b-3ebbc5cd2848.jpg)
 
 #### 13.3 Prueba de Escritorio
-#### For
-#### While
-#### Do while
+![image](https://user-images.githubusercontent.com/113869976/197419782-7029bde8-91a6-45ba-9842-7dae45f1f0f4.png)
 
 #### 13.4 Entradas
+1. n1=10 n2=5  
+2. n1=2 n2=25  
+3. n1=15 n2=6  
+4. n1=8 n2=12  
+5. n1=19 n2=18  
 
 #### 13.5 Salidas
+1. 10 es mayor
+2. 25 es mayor
+3. 15 es mayor
+4. 12 es mayor
+5. 19 es mayor
 
 
 ### Ejercicio 14. Elabora un dfd que capture 10 número enteros positivos y los almacene en un vector, sacar cuál es el mayor y cuál es el menor
