@@ -4,7 +4,7 @@
 ### Ejercicio 1. Realiza un dfd que cuente del 1 al 10
 
 #### 1.1 Análisis
-1,2,3,4,5,6,7,8,9,10
+1,2,3,4,5,6,7,8,9,10  
 
 #### 1.2 Diagrama de Flujo de Datos
 #### For
@@ -222,10 +222,10 @@ num=19,8,6,9,2,4,36,18,20,25
 ![image](https://user-images.githubusercontent.com/113869976/197418545-5345df89-7cd0-4f11-80dd-fb9456bd758a.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197418548-b81790e6-d7a8-4ad7-9e27-7ec382389e13.png)
+![image](https://user-images.githubusercontent.com/113869976/197933266-295e1433-6a2b-4da3-967a-670970b99ce8.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197418549-486aa1a0-8d41-4ba9-9b50-ef008c0351fa.png)
+![image](https://user-images.githubusercontent.com/113869976/197933279-4be0da2b-3b88-48f3-b86e-b03d53dcc5a9.png)
 
 #### 6.4 Entradas
 NA
@@ -360,23 +360,23 @@ CA=10
 
 #### 9.2 Diagrama de Flujo de Datos
 #### For
-![dfd9for](https://user-images.githubusercontent.com/113869976/197427857-fbe6a9cd-d4ff-47fd-83b4-acffe9c2efe5.jpg)
+![dfd9for](https://user-images.githubusercontent.com/113869976/197933392-bae08253-948b-4109-9cc7-4337810066eb.jpg)
 
 #### While
-![dfd9while](https://user-images.githubusercontent.com/113869976/197427868-2fb465be-6ae9-4a41-a4f6-2e27dec65022.jpg)
+![dfd9while](https://user-images.githubusercontent.com/113869976/197933411-991f5609-2464-44cf-bffa-176bf7ac1cc7.jpg)
 
 #### Do while
-![dfd9dowhile](https://user-images.githubusercontent.com/113869976/197427865-4e55bca7-b610-4ffa-85e9-dead009405fe.jpg)
+![dfd9dowhile](https://user-images.githubusercontent.com/113869976/197933424-d47e66c7-da18-4afc-8678-987dfc9d4757.jpg)
 
 #### 9.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197432968-199e64dc-f874-4965-ad32-340791decc43.png)
+![image](https://user-images.githubusercontent.com/113869976/197933328-0a85f7f1-7138-45bf-a271-d6d2754f6034.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197432566-d7350a7b-3190-4df0-a50d-6124fff06ddf.png)
+![image](https://user-images.githubusercontent.com/113869976/197933336-c70bb930-3ae4-4c41-822d-af7ee85a0cfa.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197432569-4f655e04-e5e9-4011-9e90-8d55d44abcfb.png)
+![image](https://user-images.githubusercontent.com/113869976/197933348-becfa12b-7657-4270-80e1-4f1fc4a75542.png)
 
 #### 9.4 Entradas
 NA=8  
@@ -493,10 +493,10 @@ PG=4.8
 ![image](https://user-images.githubusercontent.com/113869976/197439113-927dce9c-3be5-4542-a744-a22a6815d558.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197439119-9703c410-48a0-450c-a836-3878a63cbbf3.png)
+![image](https://user-images.githubusercontent.com/113869976/197933487-346e2c69-94ed-465a-b21a-f5f883f8b3f8.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197439127-69379373-0acd-4ade-87a9-1679393973bb.png)
+![image](https://user-images.githubusercontent.com/113869976/197933497-9790734f-31aa-4292-93c5-355186be51b1.png)
 
 #### 11.4 Entradas
 NA=8
@@ -540,10 +540,10 @@ NA=15
 ![image](https://user-images.githubusercontent.com/113869976/197454903-70e437a1-9a4c-44ff-9abe-5536a9332dff.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197454926-92426b02-c619-414e-9aeb-d5bf2e94a3bc.png)
+![image](https://user-images.githubusercontent.com/113869976/197933521-d9dbac12-977b-426e-a613-b2208d0fc64a.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197454936-08b7515d-d87a-416b-b036-90b71347dacd.png)
+![image](https://user-images.githubusercontent.com/113869976/197933528-59210ad8-5e99-4c7e-8ae8-094575ea4dc8.png)
 
 #### 12.4 Entradas
 num=11
@@ -611,25 +611,36 @@ Menor= 2
 ![dfd14for](https://user-images.githubusercontent.com/113869976/197460044-71416ad8-99ae-404a-8833-60baf3f9cbcd.jpg)
 
 #### While
-![dfd14while](https://user-images.githubusercontent.com/113869976/197460040-26c73995-024a-408b-8e6f-fb3b5a0cb1b9.jpg)
+![dfd14while](https://user-images.githubusercontent.com/113869976/197933651-b4c8f261-3248-4bbf-81c5-73cda358ff84.jpg)
 
 #### Do while
-![dfd14dowhile](https://user-images.githubusercontent.com/113869976/197460048-98a64f50-1ec1-48ac-8bb7-368ed6e3acde.jpg)
+![dfd14dowhile](https://user-images.githubusercontent.com/113869976/197933629-fc82458e-ff23-4f51-a873-6c2bc740ec4e.jpg)
 
 #### 14.3 Prueba de Escritorio
 #### For
 ![image](https://user-images.githubusercontent.com/113869976/197460071-4c80ade2-2ace-4723-99ba-7e6447b98f39.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197460083-21fb40a6-d775-45de-88c9-561225cd521b.png)
+![image](https://user-images.githubusercontent.com/113869976/197933597-becd588c-adc8-490f-ad46-d8b0c340a457.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197460092-848de49c-2460-41e6-aa7e-6419cd3005ea.png)
+![image](https://user-images.githubusercontent.com/113869976/197933604-7e11de99-9d69-4e82-93a6-4e9861694c5a.png)
 
 #### 14.4 Entradas
-
+num=8,25,41,10,36,5,78,109,2,15
 #### 14.5 Salidas
-
+[0] 8  
+[1] 25  
+[2] 41  
+[3] 10  
+[4] 36  
+[5] 5  
+[6] 78  
+[7] 109  
+[8] 2  
+[9] 15  
+El número mayor es: 109  
+El número menor es: 2  
 
 ### Ejercicio 15. Obtenga la distancia mayor entre 2 números consecutivos en una lista de 10 números
 
@@ -660,17 +671,28 @@ DM=25
 
 #### 15.2 Diagrama de Flujo de Datos
 #### For
+![dfd15for](https://user-images.githubusercontent.com/113869976/197938681-d1240f19-dcfe-4c8d-b755-5587a31f36a4.jpg)
+
 #### While
+![dfd15while](https://user-images.githubusercontent.com/113869976/197938697-8b3fce8b-5445-4663-81ac-cbab7f8dc359.jpg)
+
 #### Do while
+![dfd15dowhile](https://user-images.githubusercontent.com/113869976/197938770-ed973355-5915-42c0-88be-5333b4e2153e.jpg)
 
 #### 15.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197938787-85d2caf9-10a6-4904-8970-f06262a3b6cf.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197938794-5fdc11db-8343-477e-80ee-4dd25ae088df.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197938810-b730797c-ea9d-410a-8180-61c1c498e96f.png)
 
 #### 15.4 Entradas
-
+num=10,5,36,11,45,20,18,47,29,15
 #### 15.5 Salidas
+La distancia mayor es: 34
 
 ### Ejercicio 16. Almacene en un vector el resultado de una tabla de multiplicar (10 números)
 
