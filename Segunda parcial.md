@@ -657,15 +657,15 @@ NÚMEROS
 [8] 2  
 [9] 4  
 DISTANCIAS  
-[0] 11  
-[1] 8  
-[2] 7  
-[3] 25  
-[4] 9  
-[5] 24  
-[6] 24  
-[7] 6  
-[8] 2  
+[0] 15-26=-11*-1=11  
+[1] 26-18=8  
+[2] 18-25=-7*-1=7  
+[3] 25-6=19  
+[4] 6-31=-25*-1=25  
+[5] 31-32=-1*-1=1  
+[6] 32-8=24  
+[7] 8-2=6  
+[8] 2-4=-2*-1=2  
 Distancia Mayor= DM  
 DM=25  
 
@@ -697,7 +697,7 @@ La distancia mayor es: 34
 ### Ejercicio 16. Almacene en un vector el resultado de una tabla de multiplicar (10 números)
 
 #### 16.1 Análisis
-Tabla del 9
+Tabla del 9  
 [0]  
 [1] 9  
 [2] 18  
@@ -746,27 +746,27 @@ num=16
 [10]160  
 
 ### Ejercicio 17. Escriba un dfd que escriba el siguiente dibujo
-![image](https://user-images.githubusercontent.com/113869976/197946275-ec277830-3c7a-4077-b00d-3a5be21be300.png)
+![image](https://user-images.githubusercontent.com/113869976/197947566-61a2a0e3-28dd-4d76-8dbd-8e99ae102f1c.png)
 
 #### 17.1 Análisis
-*  
-**  
-***  
-****  
-*****  
+1  
+12  
+123  
+1234  
+12345
 #### 17.2 Diagrama de Flujo de Datos
 #### For
-![dfd17for](https://user-images.githubusercontent.com/113869976/197945435-49c0ecda-79e8-42b0-a00e-31ba6552f6ca.jpg)
+![dfd17for](https://user-images.githubusercontent.com/113869976/197947833-32958fb8-a2c0-4d4b-b48c-44c124de3bb7.jpg)
 
 #### 17.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197945421-3d3258f9-05d0-4792-9b3b-f4f4177b5e67.png)
+![image](https://user-images.githubusercontent.com/113869976/197947727-2e640706-ca6f-44cd-a8c9-7bfb770413c4.png)
 
 #### 17.4 Entradas
 NA
 #### 17.5 Salidas
-*  
-**  
-***  
-****  
-*****  
+1  
+1 2  
+1 2 3  
+1 2 3 4  
+1 2 3 4 5  
