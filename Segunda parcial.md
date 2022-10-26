@@ -712,34 +712,61 @@ Tabla del 9
 
 #### 16.2 Diagrama de Flujo de Datos
 #### For
+![dfd16for](https://user-images.githubusercontent.com/113869976/197943509-9a8eb0e3-c6b9-45aa-8b75-4e4c235cba46.jpg)
+
 #### While
+![dfd16while](https://user-images.githubusercontent.com/113869976/197943520-5c77e64f-0e78-4bb2-b9fb-64138adba022.jpg)
+
 #### Do while
+![dfd16dowhile](https://user-images.githubusercontent.com/113869976/197943502-98f10cc7-7b0e-4da3-8b12-546e58a447f8.jpg)
 
 #### 16.3 Prueba de Escritorio
 #### For
+![image](https://user-images.githubusercontent.com/113869976/197943550-64fa6d82-c1e7-4c33-bb57-39f2d7967132.png)
+
 #### While
+![image](https://user-images.githubusercontent.com/113869976/197943564-7e8fc40a-a67e-4787-bf1d-df8cbae16e96.png)
+
 #### Do while
+![image](https://user-images.githubusercontent.com/113869976/197943571-a71eb0d1-bdfe-4497-8069-2fadaa68d52b.png)
 
 #### 16.4 Entradas
-
+num=16
 #### 16.5 Salidas
-
+[0]  
+[1]16  
+[2]32  
+[3]48  
+[4]64  
+[5]80  
+[6]96  
+[7]112  
+[8]128  
+[9]144  
+[10]160  
 
 ### Ejercicio 17. Escriba un dfd que escriba el siguiente dibujo
-(Imagen del dibujo)
+![image](https://user-images.githubusercontent.com/113869976/197946275-ec277830-3c7a-4077-b00d-3a5be21be300.png)
 
 #### 17.1 Análisis
-
+*  
+**  
+***  
+****  
+*****  
 #### 17.2 Diagrama de Flujo de Datos
 #### For
-#### While
-#### Do while
+![dfd17for](https://user-images.githubusercontent.com/113869976/197945435-49c0ecda-79e8-42b0-a00e-31ba6552f6ca.jpg)
 
 #### 17.3 Prueba de Escritorio
 #### For
-#### While
-#### Do while
+![image](https://user-images.githubusercontent.com/113869976/197945421-3d3258f9-05d0-4792-9b3b-f4f4177b5e67.png)
 
 #### 17.4 Entradas
-
+NA
 #### 17.5 Salidas
+*  
+**  
+***  
+****  
+*****  
