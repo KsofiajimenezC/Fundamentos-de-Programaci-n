@@ -790,7 +790,6 @@ void main() {
   double conta = 0;  
   double cal1 = 0;  
   double cal2 = 1;  
-
   for (var i = 1; i <= 15; i++) {  
     double c = double.parse(stdin.readLineSync()!);  
     if (c > 10) {  
@@ -895,7 +894,6 @@ void main() {
       cal2 = cal1;  
     }  
   } while (cont <= 14);  
-
   proma = sumaa / conta;  
   print('el promedio de aprobados es $proma');  
   print('la calificacion mas alta es $cal2');  
@@ -999,7 +997,6 @@ void main() {
 }  
 #### While
 import 'dart:io';  
-
 void main() {  
   double sumap = 0;  
   double sumai = 0;  
@@ -1032,7 +1029,6 @@ void main() {
       }  
       cont = cont + 1;  
     } while (cont <= ls);  
-
     promi = sumai / conti;  
     print('los impares son $conti y su promedio es $promi');  
     promp = sumap / contp;  
@@ -1047,7 +1043,6 @@ void main() {
 }  
 #### Do while
 import 'dart:io';  
-
 void main() {  
   double sumap = 0;  
   double sumai = 0;  
@@ -1080,7 +1075,6 @@ void main() {
       }  
       cont = cont + 1;  
     } while (cont <= ls);  
-
     promi = sumai / conti;  
     print('los impares son $conti y su promedio es $promi');  
     promp = sumap / contp;  
