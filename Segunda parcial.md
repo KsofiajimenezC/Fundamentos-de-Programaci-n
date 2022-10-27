@@ -281,7 +281,7 @@ void main() {
   print(array);  
 }  
 
-### Ejercicio 5. Almacena los números leídos del teclao en un vector de 10 elementos
+### Ejercicio 5. Almacena los números leídos del teclado en un vector de 10 elementos
 
 #### 5.1 Análisis
 [0] 20  
@@ -307,13 +307,13 @@ void main() {
 
 #### 5.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197418527-dcfcf7b6-7148-4e79-8449-c31e76f1d228.png)
+![image](https://user-images.githubusercontent.com/113869976/198346244-58c74385-0daa-4079-bce9-769cae184baf.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197418531-ab107c13-76aa-4a37-bf23-7108db770685.png)
+![image](https://user-images.githubusercontent.com/113869976/198346274-1adddcb6-bd7e-4c38-939d-e91d8b7f2f0b.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197418541-60b85e6f-04d6-4267-bca2-23b017d20f15.png)
+![image](https://user-images.githubusercontent.com/113869976/198346293-8bd17cb2-3f69-4716-8a68-ec04e9d46ce8.png)
 
 #### 5.4 Entradas
 num=19,8,6,9,2,4,36,18,20,25
@@ -484,13 +484,13 @@ void main() {
 
 #### 7.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197418557-6af80db7-75f5-4672-a2b0-b5feeab9ce71.png)
+![image](https://user-images.githubusercontent.com/113869976/198347147-91fc341b-d933-435c-b263-4f81c0174f66.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197418567-025bdf21-0deb-4fdc-b92c-c6977791ccbe.png)
+![image](https://user-images.githubusercontent.com/113869976/198347172-edc69f19-0ab7-4954-a79c-deb958fb5aa1.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197418570-f335e459-49c7-4b4b-b558-dd8892263db2.png)
+![image](https://user-images.githubusercontent.com/113869976/198347183-33ad51de-97d9-46f0-b9f6-6458ac1a6480.png)
 
 #### 7.4 Entradas
 num=16,17,28,8,14,6,30,22,18,2,4
@@ -761,13 +761,13 @@ CA=10
 
 #### 9.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197933328-0a85f7f1-7138-45bf-a271-d6d2754f6034.png)
+![image](https://user-images.githubusercontent.com/113869976/198348167-10bd160c-ff13-419d-af87-577dd4bd8ad6.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197933336-c70bb930-3ae4-4c41-822d-af7ee85a0cfa.png)
+![image](https://user-images.githubusercontent.com/113869976/198348183-8714df0e-823a-4858-bcd6-dc83d3e73ce6.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197933348-becfa12b-7657-4270-80e1-4f1fc4a75542.png)
+![image](https://user-images.githubusercontent.com/113869976/198348194-91d93d11-f750-422f-ab04-25e5c92d6106.png)
 
 #### 9.4 Entradas
 NA=8  
@@ -1282,13 +1282,13 @@ NA=15
 
 #### 12.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197454903-70e437a1-9a4c-44ff-9abe-5536a9332dff.png)
+![image](https://user-images.githubusercontent.com/113869976/198348547-32254939-a958-44e0-826a-0bf6284dd660.png)
 
 #### While
-![image](https://user-images.githubusercontent.com/113869976/197933521-d9dbac12-977b-426e-a613-b2208d0fc64a.png)
+![image](https://user-images.githubusercontent.com/113869976/198348557-5ec3cde3-85de-4687-bc3e-4aa1a9b77d78.png)
 
 #### Do while
-![image](https://user-images.githubusercontent.com/113869976/197933528-59210ad8-5e99-4c7e-8ae8-094575ea4dc8.png)
+![image](https://user-images.githubusercontent.com/113869976/198348582-8b6666fe-8b11-445a-a83d-eb6da8dfe9a2.png)
 
 #### 12.4 Entradas
 num=11
@@ -1558,7 +1558,7 @@ void main() {
 
 #### 17.3 Prueba de Escritorio
 #### For
-![image](https://user-images.githubusercontent.com/113869976/197947727-2e640706-ca6f-44cd-a8c9-7bfb770413c4.png)
+![image](https://user-images.githubusercontent.com/113869976/198350473-0aebb203-2c40-44e0-8b82-f9a3dc70e060.png)
 
 #### 17.4 Entradas
 NA
@@ -1577,7 +1577,7 @@ void main() {
   var n = 5;  
   for (var i = 0; i < 5; i++) {  
     for (var j = 0; j <= i; j++) {  
-      stdout.write('*');  
+      stdout.write(j);  
     }  
     print('');  
   }  
