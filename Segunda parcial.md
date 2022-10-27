@@ -16,7 +16,6 @@
 #### Do while
 ![dfd1dowhile](https://user-images.githubusercontent.com/113869976/197417516-af9cfdf1-d1d3-49ba-b44f-d1a6b942320e.jpg)
 
-
 #### 1.3 Prueba de Escritorio
 #### For
 ![image](https://user-images.githubusercontent.com/113869976/197417878-c87a1150-b629-4076-a7e4-5ade7a52e052.png)
@@ -31,6 +30,30 @@
 NA
 #### 1.5 Salidas
 1 2 3 4 5 6 7 8 9 10
+#### 1.6 Código dart
+#### For
+void main() {
+  for (var i = 1; i <= 10; i++) {
+    print(i);
+  }
+}
+#### While
+void main() {
+  int cont = 1;
+
+  while (cont <= 10) {
+    print(cont);
+    cont = cont + 1;
+  }
+}
+#### Do while
+void main() {
+  int cont = 1;
+  do {
+    print(cont);
+    cont = cont + 1;
+  } while (cont <= 10);
+}
 
 ### Ejercicio 2. Dfd que cuente del 1 al 10 y sume todos los números
 
@@ -64,6 +87,40 @@ NA
 1 2 3 4 5 6 7 8 9 10
 55
 
+#### 2.6 Código dart
+#### For
+void main() {
+  var Suma = 0;
+  for (var i = 1; i <= 10; i++) {
+    Suma = Suma + i;
+  }
+  print(Suma);
+}
+#### While
+void main() {
+  int suma = 0;
+  int cont = 1;
+
+  while (cont <= 10) {
+    suma = suma + cont;
+    cont = cont + 1;
+  }
+
+  print(suma);
+}
+#### Do while
+void main() {
+  var suma = 0;
+  int cont = 1;
+
+  do {
+    suma = suma + cont;
+    cont = cont + 1;
+  } while (cont <= 10);
+
+  print(suma);
+}
+
 ### Ejercicio 3. Obtenga la suma de los 5 números pares del 1 al 10
 
 #### 3.1 Análisis
@@ -95,6 +152,42 @@ NA
 NA
 #### 3.5 Salidas
 30
+
+#### 3.6 Código dart
+#### For
+void main() {
+  int suma = 0;
+
+  for (var i = 2; i <= 10; i += 2) {
+    suma = suma + i;
+  }
+
+  print(suma);
+}
+#### While
+void main() {
+  int suma = 0;
+  int cont = 1;
+
+  while (cont <= 5) {
+    suma = suma + cont * 2;
+    cont = cont + 1;
+  }
+
+  print(suma);
+}
+#### Do while
+void main() {
+  int suma = 0;
+  int cont = 1;
+
+  do {
+    suma = suma + cont * 2;
+    cont = cont + 1;
+  } while (cont <= 5);
+
+  print(suma);
+}
 
 ### Ejercicio 4. Almacena en un array el número n leído del teclado. El tamaño del array es 10
 
@@ -144,6 +237,50 @@ num=15
 [8] 15  
 [9] 15  
 
+#### 4.6 Código dart
+#### For
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  for (var i = 0; i < 10; i++) {
+    array.add(n);
+  }
+  print(array);
+}
+#### While
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  while (cont <= 9) {
+    array.add(n);
+    cont = cont + 1;
+  }
+
+  print(array);
+}
+#### Do while
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  do {
+    array.add(n);
+    cont = cont + 1;
+  } while (cont <= 9);
+
+  print(array);
+}
+
 ### Ejercicio 5. Almacena los números leídos del teclao en un vector de 10 elementos
 
 #### 5.1 Análisis
@@ -192,6 +329,50 @@ num=19,8,6,9,2,4,36,18,20,25
 [8] 20  
 [9] 25
 
+#### 5.6 Código dart
+#### For
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+
+  for (var i = 0; i < 10; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    array.add(n);
+  }
+  print(array);
+}
+#### While
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+
+  while (cont <= 9) {
+    int n = int.parse(stdin.readLineSync()!);
+    array.add(n);
+    cont = cont + 1;
+  }
+  print(array);
+}
+#### Do while
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+  do {
+    int n = int.parse(stdin.readLineSync()!);
+    array.add(n);
+    cont = cont + 1;
+  } while (cont <= 9);
+
+  print(array);
+}
 ### Ejercicio 6. Almacena un contador regresivo en un vector. El conteo es de 10 a 0
 
 #### 6.1 Análisis
@@ -242,6 +423,40 @@ NA
 [9] 1  
 [10] 0  
 
+#### 6.6 Código dart
+#### For
+void main() {
+  var array = [];
+
+  for (var i = 10; i >= 0; i--) {
+    array.add(i);
+  }
+  print(array);
+}
+#### While
+void main() {
+  var array = [];
+  var c = 10;
+
+  while (c >= 0) {
+    array.add(c);
+    c--;
+  }
+
+  print(array);
+}
+#### Do while
+void main() {
+  var array = [];
+  var c = 10;
+  do {
+    array.add(c);
+    c--;
+  } while (c >= 0);
+
+  print(array);
+}
+
 ### Ejercicio 7. Almacene un vector de tamaño 10 todos los números pares capturados hasta completar 10
 
 #### 7.1 Análisis
@@ -291,6 +506,59 @@ num=16,17,28,8,14,6,30,22,18,2,4
 [8] 2  
 [9] 4
 
+#### 7.6 Código dart
+#### For
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+
+  for (var i = 0; i <= 10; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n % 2 == 0) {
+      array.add(n);
+      i = i - 1;
+    }
+  }
+  print(array);
+}
+#### While
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  var c = 0;
+
+  while (c <= 10) {
+    int n = int.parse(stdin.readLineSync()!);
+    c = c + 1;
+    if (n % 2 == 0) {
+      array.add(n);
+      c = c - 1;
+    }
+  }
+  print(array);
+}
+#### Do while
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  var c = 0;
+  do {
+    int n = int.parse(stdin.readLineSync()!);
+
+    if (n % 2 == 0) {
+      array.add(n);
+      c = c + 1;
+    }
+  } while (c <= 9);
+  print(array);
+}
+
 ### Ejercicio 8. Obtenga el promedio de las calificaciones aprobatorias, la cantidad de alumnos aprobados y la cantidad de alumnos reprobados. 
 ### La calificación es entre 0 y 10 y el máximo de alumnos es de 15.
 
@@ -338,6 +606,129 @@ Reprobados: 4
 Aprobados: 6  
 Promedio Aprobados: 8.5  
 
+#### 8.6 Código dart
+#### For
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+
+  for (var i = 1; i <= 15; i++) {
+    double c = double.parse(stdin.readLineSync()!);
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      i = i - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      i = i - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  }
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+#### While
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+  var cont = 0;
+
+  while (cont <= 14) {
+    double c = double.parse(stdin.readLineSync()!);
+    cont = cont + 1;
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      cont = cont - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      cont = cont - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  }
+
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+#### Do while
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+  var cont = 0;
+  do {
+    double c = double.parse(stdin.readLineSync()!);
+    cont = cont + 1;
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      cont = cont - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      cont = cont - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  } while (cont <= 14);
+
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
 ### Ejercicio 9. Obtenga el promedio de las calificaciones aprobatorias, la cantidad de alumnos aprobados y la cantidad de alumnos reprobados. La calificación es entre 0 y 10 y el máximo de alumnos es de 15 e indique la calificación más alta
 
 #### 9.1 Análisis
@@ -387,6 +778,129 @@ Aprobados: 4
 Promedio Aprobados: 9.25  
 La calificación mayor es: 10
 
+#### 9.6 Código dart
+#### For
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+
+  for (var i = 1; i <= 15; i++) {
+    double c = double.parse(stdin.readLineSync()!);
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      i = i - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      i = i - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  }
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+#### While
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+  var cont = 0;
+
+  while (cont <= 14) {
+    double c = double.parse(stdin.readLineSync()!);
+    cont = cont + 1;
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      cont = cont - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      cont = cont - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  }
+
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+#### Do while
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+  var cont = 0;
+  do {
+    double c = double.parse(stdin.readLineSync()!);
+    cont = cont + 1;
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      cont = cont - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      cont = cont - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  } while (cont <= 14);
+
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
 ### Ejercicio 10. Capturen n números en el rango de [li,ls] donde:
 ### li=límite inferior ls=límite superior y li < ls y li > ls
 ### Obtenga:
@@ -450,6 +964,136 @@ Impares: 4
 Promedio Impares: 9  
 Los pares tienen mayor promedio  
 
+#### 10.6 Código dart
+#### For
+import 'dart:io';
+
+void main() {
+  var num = [];
+  var mayor = 0;
+  var menor = 0;
+  for (var i = 0; i <= 9; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n > 0) {
+      num.add(n);
+      if (n < 0) {
+        print('el numero debe ser positivo');
+        i = i - 1;
+      }
+    }
+  }
+  print(num);
+  for (var i = 0; i <= 9; i++) {
+    if (mayor < num[i]) {
+      mayor = num[i];
+    }
+  }
+  print('el numero mayor es $mayor');
+  menor = mayor;
+  for (var i = 0; i <= 9; i++) {
+    if (menor > num[i]) {
+      menor = num[i];
+    }
+  }
+  print('el numero menor es $menor');
+}
+#### While
+import 'dart:io';
+
+void main() {
+  double sumap = 0;
+  double sumai = 0;
+  var contp = 0;
+  var conti = 0;
+  double promp = 0;
+  double promi = 0;
+  print('Introduce el limite inferior, mayor a 0');
+  var li = int.parse(stdin.readLineSync()!);
+  if (li < 0) {
+    print('tu limite inferior debe ser mayor a 0');
+  }
+  if (li > 0) {
+    print('Ahora introduce un limite superior');
+    var ls = int.parse(stdin.readLineSync()!);
+    if (ls < li) {
+      print('tu limite superior debe ser mayor a tu limite inferior');
+    }
+    var cont = li;
+    do {
+      if (cont <= ls) {
+        sumai = sumai + cont;
+        conti = conti + 1;
+      }
+      if (cont % 2 == 0) {
+        sumap = sumap + cont;
+        contp = contp + 1;
+        sumai = sumai - cont;
+        conti = conti - 1;
+      }
+      cont = cont + 1;
+    } while (cont <= ls);
+
+    promi = sumai / conti;
+    print('los impares son $conti y su promedio es $promi');
+    promp = sumap / contp;
+    print('los pares son $contp y su promedio es $promp');
+    if (promp < promi) {
+      print('$promi es mayor');
+    }
+    if (promp > promi) {
+      print('el promedio $promp es mayor');
+    }
+  }
+}
+#### Do while
+import 'dart:io';
+
+void main() {
+  double sumap = 0;
+  double sumai = 0;
+  var contp = 0;
+  var conti = 0;
+  double promp = 0;
+  double promi = 0;
+  print('Introduce el limite inferior, mayor a 0');
+  var li = int.parse(stdin.readLineSync()!);
+  if (li < 0) {
+    print('tu limite inferior debe ser mayor a 0');
+  }
+  if (li > 0) {
+    print('Ahora introduce un limite superior');
+    var ls = int.parse(stdin.readLineSync()!);
+    if (ls < li) {
+      print('tu limite superior debe ser mayor a tu limite inferior');
+    }
+    var cont = li;
+    do {
+      if (cont <= ls) {
+        sumai = sumai + cont;
+        conti = conti + 1;
+      }
+      if (cont % 2 == 0) {
+        sumap = sumap + cont;
+        contp = contp + 1;
+        sumai = sumai - cont;
+        conti = conti - 1;
+      }
+      cont = cont + 1;
+    } while (cont <= ls);
+
+    promi = sumai / conti;
+    print('los impares son $conti y su promedio es $promi');
+    promp = sumap / contp;
+    print('los pares son $contp y su promedio es $promp');
+    if (promp < promi) {
+      print('$promi es mayor');
+    }
+    if (promp > promi) {
+      print('el promedio $promp es mayor');
+    }
+  }
+}
+
 ### Ejercicio 11. Obtener la frecuencia de n. Calificaciones entre [1,10]
 ### -Indique la cantidad de reprobados
 ### -Indique la cantidad de aprobados
@@ -507,6 +1151,107 @@ Aprobados: 6
 Promedio de aprobados: 8.83333333  
 Promedio General: 7.5  
 La frecuencia es 10 y se repite 3 veces  
+
+#### 11.6 Código dart
+#### For
+import 'dart:io';
+
+void main() {
+  var contr = 0;
+  var conta = 0;
+  var contt = 0;
+  double sumag = 0;
+  double sumaa = 0;
+  double promg = 0;
+  double porma = 0;
+  var C0 = 0;
+  var C1 = 0;
+  var C2 = 0;
+  var C3 = 0;
+  var C4 = 0;
+  var C5 = 0;
+  var C6 = 0;
+  var C7 = 0;
+  var C8 = 0;
+  var C9 = 0;
+  var C10 = 0;
+
+  print('inserta las 10 calificaciones entera positiva, entre 1 y 10');
+  for (var i = 0; i <= 9; i++) {
+    int c = int.parse(stdin.readLineSync()!);
+
+    if (c > 11) {
+      print('La calificacion debe ser menor a 10');
+      i = i--;
+    }
+    if (c < 0) {
+      print('la calificacion debe ser mayor a 0');
+      i = i--;
+    }
+    if (c == 0) {
+      C0 = C0 + 1;
+    }
+    if (c == 1) {
+      C1 = C1 + 1;
+    }
+    if (c == 2) {
+      C2 = C2 + 1;
+    }
+    if (c == 3) {
+      C3 = C3 + 1;
+    }
+    if (c == 4) {
+      C4 = C4 + 1;
+    }
+    if (c == 5) {
+      C5 = C5 + 1;
+    }
+    if (c == 6) {
+      C6 = C6 + 1;
+    }
+    if (c == 7) {
+      C7 = C7 + 1;
+    }
+    if (c == 8) {
+      C8 = C8 + 1;
+    }
+    if (c == 9) {
+      C9 = C9 + 1;
+    }
+    if (c == 10) {
+      C10 = C10 + 1;
+    }
+    if (c < 11 && c >= 0) {
+      if (c >= 6) {
+        conta = conta + 1;
+        sumaa = sumaa + c;
+      }
+      if (c < 6) {
+        contr = contr + 1;
+      }
+      sumag = sumag + c;
+    }
+  }
+  porma = sumaa / conta;
+  contt = conta + contr;
+  promg = sumag / contt;
+
+  print('La frecuencia de 0 es $C0');
+  print('La frecuencia de 1 es $C1');
+  print('La frecuencia de 2 es $C2');
+  print('La frecuencia de 3 es $C3');
+  print('La frecuencia de 4 es $C4');
+  print('La frecuencia de 5 es $C5');
+  print('La frecuencia de 6 es $C6');
+  print('La frecuencia de 7 es $C7');
+  print('La frecuencia de 8 es $C8');
+  print('La frecuencia de 9 es $C9');
+  print('La frecuencia de 10 es $C10');
+  print('Cantidad de reprobados $contr');
+  print('cantidad de aprovaodos $conta');
+  print('promedio general $promg');
+  print('promedio aprobados $porma');
+}
 
 ### Ejercicio 12. Registrar cuántas veces se repite cada calificación [1,10], en un grupo de n alumnos
 
@@ -588,7 +1333,6 @@ n2=19 es mayor
 3. 15 es mayor
 4. 12 es mayor
 5. 19 es mayor
-
 
 ### Ejercicio 14. Elabora un dfd que capture 10 número enteros positivos y los almacene en un vector, sacar cuál es el mayor y cuál es el menor
 
@@ -694,6 +1438,46 @@ num=10,5,36,11,45,20,18,47,29,15
 #### 15.5 Salidas
 La distancia mayor es: 34
 
+#### 15.6 Código dart
+#### For
+import 'dart:io';
+
+void main() {
+  var num = [];
+  var d = [];
+  var dis = 0;
+  var mayor = 0;
+
+  for (var i = 0; i <= 9; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n < 0) {
+      print('el numero no debe ser negativo');
+      i = i--;
+    }
+    if (n > 0) {
+      num.add(n);
+    }
+  }
+  print('los numeros son $num');
+  for (var i = 0; i < 9; i++) {
+    dis = num[i] - num[i + 1];
+    d.add(i);
+    if (dis < 0) {
+      d[i] = dis * -1;
+    }
+    if (dis > 0) {
+      d[i] = dis;
+    }
+  }
+  print('las distancias son $d');
+  for (var i = 0; i < 9; i++) {
+    if (mayor < d[i]) {
+      mayor = d[i];
+    }
+  }
+  print('la distacia mayor es $mayor');
+}
+
 ### Ejercicio 16. Almacene en un vector el resultado de una tabla de multiplicar (10 números)
 
 #### 16.1 Análisis
@@ -745,6 +1529,20 @@ num=16
 [9]144  
 [10]160  
 
+#### 16.6 Código dart
+#### For
+import 'dart:io';
+
+void main() {
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  for (var i = 0; i < 11; i++) {
+    array.add(i);
+    array[i] = n * i;
+  }
+  print('$array');
+}
+
 ### Ejercicio 17. Escriba un dfd que escriba el siguiente dibujo
 ![image](https://user-images.githubusercontent.com/113869976/197947566-61a2a0e3-28dd-4d76-8dbd-8e99ae102f1c.png)
 
@@ -770,3 +1568,17 @@ NA
 1 2 3  
 1 2 3 4  
 1 2 3 4 5  
+
+#### .6 Código dart
+#### For
+import 'dart:io';
+
+void main() {
+  var n = 5;
+  for (var i = 0; i < 5; i++) {
+    for (var j = 0; j <= i; j++) {
+      stdout.write('*');
+    }
+    print('');
+  }
+}
