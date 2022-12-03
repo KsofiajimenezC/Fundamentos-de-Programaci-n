@@ -1,5 +1,5 @@
 # Segunda Parcial
-## Diagramas de flujo de datos elaborados a lo largo de la segunda parcial por medio de for, while, do while y vectores
+## Diagramas de flujo de datos elaborados a lo largo de la tercera parcial por medio de for, while, do while y vectores
 
 ### Ejercicio 1. Realiza un dfd que cuente del 1 al 10
 
